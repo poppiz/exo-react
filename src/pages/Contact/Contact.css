@@ -1,0 +1,12 @@
+.background {
+  background-image: url("../../../public/img/contact-bg.jpg");
+}
+
+.contact {
+  background-color: white;
+}
+
+#textarea {
+  resize: none;
+  height: 10em;
+}

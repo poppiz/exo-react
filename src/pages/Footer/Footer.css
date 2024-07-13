@@ -1,0 +1,26 @@
+footer {
+  background-color: rgb(235, 234, 234);
+  margin-top: 8em;
+}
+ul {
+  list-style-type: ">";
+}
+li {
+  padding-left: 0.5em;
+}
+
+li::marker {
+  color: blue;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  height: 3.5em;
+}
+
+#scroll-to-top.visible {
+  display: block;
+}

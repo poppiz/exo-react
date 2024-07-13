@@ -1,0 +1,27 @@
+.hello-div {
+  min-height: 45em;
+  background-image: url("../../../public/img/hero-bg-mobile.jpg");
+  background-repeat: no-repeat;
+  margin-bottom: 3em;
+}
+
+.text {
+  padding: 3em 0em;
+}
+
+@media (min-width: 720px) {
+  .hello-div {
+    min-height: 35em;
+    background-image: url("../../../public/img/hero-bg-tablette.jpg");
+  }
+}
+
+@media (min-width: 1040px) {
+  .hello-div {
+    min-height: 60em;
+    background-image: url(../../../public/img/hero-bg.jpg);
+  }
+  .text {
+    font-size: 1.3rem;
+  }
+}
